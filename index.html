@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <button id="reset">Reset</button>
+      <section id="count-percentage">
+        <h1>Slope Percentage From Run And Height</h1>
+        <div>
+          <h2>Run of slope:</h2>
+          <span> <input type="number" id="run-for-percentage" /> meter </span>
+          <h2>Height of slope:</h2>
+          <span>
+            <input type="number" id="height-for-percentage" /> meter
+          </span>
+        </div>
+        <div>
+          <button id="count-per-btn">Count Slope Percentage</button>
+        </div>
+        <div id="count-percentage-results"></div>
+      </section>
+      <section id="count-height">
+        <h1>Slope Height From Run And Percentage</h1>
+        <div>
+          <h2>Run of slope:</h2>
+          <span> <input type="number" id="run-for-height" /> meter </span>
+          <h2>Percentage of slope:</h2>
+          <span> <input type="number" id="percentage-for-height" /> % </span>
+        </div>
+        <div>
+          <button id="count-height-btn">Count Slope Height</button>
+        </div>
+        <div id="count-height-results"></div>
+      </section>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
